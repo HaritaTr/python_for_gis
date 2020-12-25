@@ -2,7 +2,7 @@
 
 layer = iface.activeLayer()
 """ Verinin kaydedilmesini istediğiniz yolu giriniz. 
-Örnek*: C:gis/xyz.txt
+Örnek* = C:gis/xyz.txt
 """
 output_file = open('Örnek*', 'w')
 for f in layer.getFeatures():
